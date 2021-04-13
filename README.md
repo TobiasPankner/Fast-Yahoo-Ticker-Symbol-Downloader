@@ -33,5 +33,8 @@ batchsize should be reduced if you have a slow connection or a weak CPU
 clencht has deminishing returns, meaning a clength of 5 takes much longer than a clength of 4 but will not get many more results.  
 
 Examples:  
-Default arguments, saves symbols in the same folder: `py symbol_downloader.py`  
-Only download futures and etfs to a specific folder: `py symbol_downloader.py -t etf,future -o E:/Desktop/symbols.csv`  
+Default arguments, saves symbols in the same folder:  
+`py symbol_downloader.py`  
+
+Only download futures and etfs to a specific folder:  
+`py symbol_downloader.py -t etf,future -o E:/Desktop/symbols.csv`  
