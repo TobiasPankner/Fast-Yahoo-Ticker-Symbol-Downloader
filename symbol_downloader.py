@@ -34,7 +34,7 @@ if __name__ == '__main__':
                         help="The maximum length of combinations to search for")
 
     parser.add_argument("-t", "--types", dest="types", default="equity,mutualfund,etf,index,future,currency",
-                        help="The path of the output file")
+                        help="The types of symbols to download (equity,mutualfund,etf,index,future,currency)")
 
     parser.add_argument("-o", "--outfile", dest="outfile", default="symbols.csv",
                         help="The path of the output file")
