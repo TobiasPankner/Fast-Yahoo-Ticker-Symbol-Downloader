@@ -33,8 +33,8 @@ if __name__ == '__main__':
     parser.add_argument("-l", "--clength", dest="clength", default=2, type=int,
                         help="The maximum length of combinations to search for")
 
-    parser.add_argument("-t", "--types", dest="types", default="equity,mutualfund,etf,index,future,currency",
-                        help="The types of symbols to download (equity,mutualfund,etf,index,future,currency)")
+    parser.add_argument("-t", "--types", dest="types", default="equity,mutualfund,etf,index,future,currency,cryptocurrency",
+                        help="The types of symbols to download (equity,mutualfund,etf,index,future,currency,cryptocurrency)")
 
     parser.add_argument("-o", "--outfile", dest="outfile", default="symbols.csv",
                         help="The path of the output file")
