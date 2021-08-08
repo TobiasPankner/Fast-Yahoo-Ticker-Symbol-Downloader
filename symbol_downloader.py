@@ -15,7 +15,12 @@ def grouper(n, iterable, fillvalue=None):
 
 
 def get_symbols(url):
-    resp = requests.get(url, timeout=3, allow_redirects=False)
+    resp = requests.get(
+        url,
+        timeout=3,
+        allow_redirects=False,
+        headers={"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"}
+    )
 
     return resp.json()['finance']['result'][0]['documents']
 
