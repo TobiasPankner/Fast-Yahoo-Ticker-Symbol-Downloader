@@ -1,5 +1,5 @@
 # Fast-Yahoo-Ticker-Symbol-Downloader
-Downloads (alsmost) all the symbols from Yahoo Finance.  
+Downloads (almost) all the symbols from Yahoo Finance.  
 This project does pretty much the same thing as [Yahoo-ticker-symbol-downloader](https://github.com/Benny-/Yahoo-ticker-symbol-downloader) by [Benny-](https://github.com/Benny-), but uses a different url and multiprocessing to retrieve the data.  
 Because of this, this program is _**a lot**_ faster.
 
@@ -24,13 +24,13 @@ optional arguments:
   -l CLENGTH, --clength CLENGTH
                         The maximum length of combinations to search for
   -t TYPES, --types TYPES
-                        The types of symbols to download (equity,mutualfund,etf,index,future,currency)
+                        The types of symbols to download (equity,mutualfund,etf,index,future,currency,cryptocurrency)
   -o OUTFILE, --outfile OUTFILE
                         The path of the output file
 ```  
 Notes:  
 batchsize should be reduced if you have a slow connection or a weak CPU  
-clencht has deminishing returns, meaning a clength of 5 takes much longer than a clength of 4 but will not get many more results.  
+clenght has deminishing returns, meaning a clength of 5 takes much longer than a clength of 4 but will not get many more results.  
 
 Examples:  
 Default arguments, saves symbols in the same folder:  
